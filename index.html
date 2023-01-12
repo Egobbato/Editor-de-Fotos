@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+    <title>Editor de Fotos</title>
+</head>
+
+<body>
+
+    <h2>Edite sua Foto:</h2>
+    <div class="controle">
+        <label for="escapamento">Espaçamento:</label>
+        <input id="escapamento" type="range" name="escapamento" min="10" max="200" value="10" data-size="px">
+
+        <label for="opacidade">Opacidade:</label>
+        <input id="opacidade" type="range" name="opacidade" min="0" max="25" value="10" data-size="px">
+
+        <label for="escalacinza">Escala de Cinza:</label>
+        <input id="escalacinza" type="range" name="escalacinza" min="0" max="100" value="0" data-size="%">
+
+        <label for="tonalidade">Tonalidade:</label>
+        <input id="tonalidade" type="range" name="tonalidade" min="0" max="360" value="0" data-size="deg">
+
+        <label for="base">Cor de Base:</label>
+        <input id="base" type="color" name="base" value="#40d50e">
+    </div>
+    <img src="./img/Foto.png" alt="Gobbato">
+    <script src='main.js'></script>
+</body>
+
+</html>
